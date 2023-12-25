@@ -1,25 +1,31 @@
-# Project Name
+# QR Code Generator
 
-Short description of your Node.js project.
+A simple Node.js and Express.js application for generating QR codes and saving related information.
 
 ## Table of Contents
 
-- [Project Name](#project-name)
+- [QR Code Generator](#qr-code-generator)
   - [Table of Contents](#table-of-contents)
   - [Description](#description)
+  - [Features](#features)
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Configuration](#configuration)
+  - [Endpoints](#endpoints)
   - [Contributing](#contributing)
   - [License](#license)
 
 ## Description
 
-Provide a more detailed description of your project. Explain what it does, why it's useful, and any other relevant information.
+This project is a basic QR code generator built using Node.js and Express.js. It allows users to input a URL and generates a QR code image, saving the QR code image and the URL in separate files.
+
+## Features
+
+- Generate QR codes from provided URLs.
+- Save the generated QR code image and URL information.
 
 ## Installation
 
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/your-project.git
+   git clone https://github.com/MBABHISHEK/qr_code_generator.git
