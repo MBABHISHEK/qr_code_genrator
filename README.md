@@ -11,8 +11,6 @@ A simple Node.js and Express.js application for generating QR codes and saving r
   - [Installation](#installation)
   - [Usage](#usage)
   - [Endpoints](#endpoints)
-  - [Contributing](#contributing)
-  - [License](#license)
 
 ## Description
 
@@ -36,22 +34,20 @@ This project is a basic QR code generator built using Node.js and Express.js. It
 3.**Install dependencies:**
     npm install   
 
-4.*to start the server*
+4.**to start the server**
 npm start
 The server will run at http://localhost:3000.
 
-Access the web interface:
+## Usage
+1. Access the web interface:
 
-Open your browser and go to http://localhost:3000 to access the web interface.
+2. Open your browser and go to http://localhost:3000 to access the web interface.
+   Generate a QR code:
+   Enter a URL in the input field on the web interface.
+   Click the "Generate QR Code" button.
+3. Check the generated QR code:
+   The QR code image will be saved in the public/qr_img.png file.
 
-Generate a QR code:
-
-Enter a URL in the input field on the web interface.
-Click the "Generate QR Code" button.
-Check the generated QR code:
-
-The QR code image will be saved in the public/qr_img.png file.
-
-Endpoints
+## Endpoints
 GET /: Serves the HTML file for the web interface.
 POST /generate-qr: Accepts JSON with a URL, generates a QR code, saves the QR code image, and the URL in separate files.
